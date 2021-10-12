@@ -6,9 +6,6 @@ import FavoritesPage from './pages/Favorites';
 import Layout from './components/layout/Layout'
 
 const App = () => {
-  //localhost:3000
-  //myPage.com/
-
   return(
     <Layout>
       <Switch>

@@ -14,6 +14,7 @@ function NewMeetupPage() {
     }).then(() => {
       history.replace('/')
     })
+    catch (err=> console.error(err))
   }
 
   return (
